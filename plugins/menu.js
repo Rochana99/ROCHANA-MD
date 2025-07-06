@@ -8,7 +8,7 @@ cmd(
     filename: __filename,
   },
   async (
-    danuwa,
+    rochana,
     mek,
     m,
     {
@@ -29,10 +29,10 @@ cmd(
         });
       }
 
-      let menuText = "📋 *Available Commands:*\n";
+      let menuText = "📋 *ʀᴏᴄʜᴀɴᴀ-ᴍᴅ ʙᴏᴛ◉‿◉  ♥︎╣[-_-]╠♥︎ Available Commands:*\n";
 
       for (const [cat, cmds] of Object.entries(categories)) {
-        menuText += `\n📂 *${cat.toUpperCase()}*\n`;
+        menuText += `\n→💋💫 *${cat.toUpperCase()}*\n`;
         cmds.forEach(c => {
           menuText += `- .${c.pattern} : ${c.desc}\n`;
         });
