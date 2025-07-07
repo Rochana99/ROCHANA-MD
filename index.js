@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `ROCHANA-MD connected successfully ✅\n\nPREFIX: ${prefix}`;
       await rochana.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `https://github.com/Rochana99/ROCHANA-MD/blob/main/images/20250706_212935.png` },
+        image: { url: `https://raw.githubusercontent.com/Rochana99/ROCHANA-MD/refs/heads/main/images/20250706_212935.png` },
         caption: up
       });
 
